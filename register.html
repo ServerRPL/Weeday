@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/register.css">
+
+    <title>Daftar</title>
+  </head>
+  <body>
+      <div class="container-fluid">
+          <div class="row">
+            <img src="assets/icon/arrow-left (1).svg" class="btn-back" alt="">
+              <div class="col-sm-12 col-md-4 wrapper">
+                  <div class="image">
+                    <img src="assets/img/rui-marinho-ATEOvF4SGME-unsplash.jpg" class="picture" alt="">
+                  </div>
+              </div>
+              <div class="col-sm-12 col-md-8">
+                <div data-spy="scroll" data-target="#wrapper" data-offset="0">
+                    <div class="judul mt-5 mb-5">
+                        <h1 class="mb-3">Daftar</h1>
+                        <p class="text-muted">Silahkan isi data pribadi dibawah sini. *Wajib diisi</p>
+                    </div>
+                    <form action="">
+                        <div class="row">
+                            <div class="col-sm-12 col-md-6">
+                                <div class="mb-3">
+                                    <label for="nama" class="form-label">Nama</label>
+                                    <input type="text" class="form-control" id="nama">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="date" class="form-label">Date</label>
+                                    <input type="date" class="form-control" id="date" placeholder="Birthday"> 
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-6">
+                                <div class="mb-3">
+                                    <label for="namalengkap" class="form-label">Nama Lengkap</label>
+                                    <input type="text" class="form-control" id="namalengkap">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="gender" class="form-label">Gender</label>
+                                    <select class="form-control" id="" placeholder="Gender" name="Gender">
+                                        <option value="Male">Male</option>
+                                        <option value="Female">Female</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="alamat">Alamat Lengkap</label>
+                            <textarea class="form-control mt-2" id="alamat" rows="3"></textarea>
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-12 col-md-6">
+                                <div class="mb-3">
+                                    <label for="exampleInputPassword1" class="form-label">Password</label>
+                                    <input type="password" class="form-control" id="exampleInputPassword1" minlength="8" maxlength="20">
+                                    <span id="passwordHelpInline" class="form-text">
+                                        *Panjang harus 8-20 karakter.
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-6">
+                                <div class="mb-3">
+                                    <label for="phone" class="form-label">No. Handphone</label>
+                                    <input type="text" class="form-control" id="phone" maxlength="13">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="text-center button mt-4">
+                            <button type="submit" class="btn btn-daftar mb-4">Daftar</button>
+                        </div>
+                        <div class="login mb-4">
+                            <p class="text-muted text-center">Sudah punya akun? <a href="login.html" class="btn-login">Masuk</a></p>
+                        </div>
+                    </form>
+                </div>
+              </div>
+          </div>
+      </div>
+
+    <!-- Optional JavaScript -->
+    <!-- Popper.js first, then Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+  </body>
+</html>
