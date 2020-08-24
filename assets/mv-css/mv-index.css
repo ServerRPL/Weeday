@@ -1,0 +1,82 @@
+/* Navbar Section */
+@media only screen and (max-width: 1000px) {
+    .header{
+        height: 100vh;
+    }
+    .box-header > p{
+        width: 80%;
+    }
+}
+
+/* Content */
+@media only screen and (max-width: 1000px) {
+    .content{
+        height: auto;
+    }
+    .image{
+        display: none;
+    }
+    .text-content{
+        text-align: center;
+        margin: auto;
+        width: 90%;
+    }
+    .isi-content, .isi-content2{
+        transform: none;
+        -webkit-transform: none;
+        -moz-transform: none;
+        -ms-transform: none;
+        -o-transform: none;
+    }
+}
+
+/* frame */
+@media only screen and (max-width: 575px){
+    .card{
+        width: 80%;
+    }
+}
+@media only screen and (min-width:576px) and (max-width: 991px){
+    .card{
+        width: 100%;
+    }
+}
+
+/* picture */
+@media only screen and (max-width: 1000px){
+    .img-picture{
+        width: 100%;
+        transform: none;
+        -webkit-transform: none;
+        -moz-transform: none;
+        -ms-transform: none;
+        -o-transform: none;
+    }
+    .card-image{
+        width: 80%;
+        margin: auto;
+        transform: none;
+        -webkit-transform: none;
+        -moz-transform: none;
+        -ms-transform: none;
+        -o-transform: none;
+    }
+}
+@media only screen and (min-width:768px) and (max-width: 1000px){
+    .card-image{
+        width: 400px;
+        margin: auto;
+        transform: translateX(35%);
+        -webkit-transform: translateX(35%);
+        -moz-transform: translateX(35%);
+        -ms-transform: translateX(35%);
+        -o-transform: translateX(35%);
+    }
+}
+
+/* hiasan */
+@media only screen and (max-width: 1200px){
+    .hiasan{
+        display: none;
+    }
+}
