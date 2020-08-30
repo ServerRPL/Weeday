@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@0;1&family=Sriracha&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: small;
+}
+
+/* Navbar Section */
+.container > .navbar-brand{
+    font-family: 'Sriracha', cursive;
+    color: #F28F8F;
+}
+.btn-login{
+    font-size: small;
+    color: #fff;
+    background-color: #F28F8F;
+    padding: 6px 25px;
+    border-radius: 50px ;
+    -webkit-border-radius: 50px ;
+    -moz-border-radius: 50px ;
+    -ms-border-radius: 50px ;
+    -o-border-radius: 50px ;
+    box-shadow: 0px 6px 25px rgba(252, 178, 169, 0.5);
+    transition: 0.3s ease;
+    -webkit-transition: 0.3s ease;
+    -moz-transition: 0.3s ease;
+    -ms-transition: 0.3s ease;
+    -o-transition: 0.3s ease;
+}
+.container > .navbar-brand:hover{
+    color: #F28F8F;
+}
+.btn-login:hover{
+    color: #fff;
+    transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
+}
+
+/* header section */
+.header{
+    height: 50vh;
+    background: #fff;
+}
+.box-header{
+    height: 50vh;
+    width: 100%;
+    background: url('../icon/triangle.png');
+    background-size: 5%;
+}
+.judul-header{
+    text-align: center;
+    color: #F28F8F;
+    transform: translateY(15vh);
+    -webkit-transform: translateY(15vh);
+    -moz-transform: translateY(15vh);
+    -ms-transform: translateY(15vh);
+    -o-transform: translateY(15vh);
+}
+.judul-header > h1{
+    font-weight: bold;
+}
+
+/* order section */
+.section-order{
+    transform: translateY(-20vh);
+    -webkit-transform: translateY(-20vh);
+    -moz-transform: translateY(-20vh);
+    -ms-transform: translateY(-20vh);
+    -o-transform: translateY(-20vh);
+}
+.order-content{
+    background: white;
+    -webkit-box-shadow: 0px 4px 6px 2px rgba(0,0,0,0.26);
+    -moz-box-shadow: 0px 4px 6px 2px rgba(0,0,0,0.26);
+    box-shadow: 0px 4px 6px 2px rgba(0,0,0,0.26);
+    border-radius: 10px;
+}
+
+
+/* Footer Section */
+.col-12 > a {
+    color: #F28F8F1
+    font-weight: 600;
+}
+.icon-sosmed{
+    background-color: #F28F8F;
+    padding: 10px 10px;
+    margin: 0px 10px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    transition: 0.3s ease;
+    -webkit-transition: 0.3s ease;
+    -moz-transition: 0.3s ease;
+    -ms-transition: 0.3s ease;
+    -o-transition: 0.3s ease;
+}
+.icon-sosmed:hover{
+    transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
+}
